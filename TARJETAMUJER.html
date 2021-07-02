@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>SECCION MUJERES</title>
+	<link rel="stylesheet" href="MUJERstyle.css">
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<h2 class="name">ARIANA</h2>
+			<a href="Carrito.html" class="buy">Comprar ahora</a>
+			<a>$25</a>
+			<div class="circle"></div>
+			<img src="ariana.png" class="product">	
+		</div>
+		<div class="box">
+			<h2 class="name">DUA LIPA</h2>
+			<a href="Carrito.html" class="buy">Comprar ahora</a>
+			<a>$25</a>
+			<div class="circle"></div>
+			<img src="dualipa.png" class="product">	
+		</div>
+		<div class="box">
+			<h2 class="name">QUEEN KATY</h2>
+			<a href="Carrito.html" class="buy">Comprar ahora</a>
+			<a>$50</a>
+			<div class="circle"></div>
+			<img src="katty.png" class="product">	
+		</div>
+	</div>
+	<script src="vanilla-tilt.min.js"></script>
+	<script>
+		VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	});
+	</script>
+</body>
+</html>

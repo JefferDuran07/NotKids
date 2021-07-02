@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>SECCION HOMBRES</title>
+	<link rel="stylesheet" href="stylehombre.css">
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<h2 class="name">CALAVERA</h2>
+			<a href="Carrito.html" class="buy">Comprar ahora</a>
+			<a>$25</a>
+			<div class="circle"></div>
+			<img src="cala.png" class="product">	
+		</div>
+		<div class="box">
+			<h2 class="name">PINK FLOYD</h2>
+			<a href="Carrito.html" class="buy">Comprar ahora</a>
+			<a>$25</a>
+			<div class="circle"></div>
+			<img src="rock.png" class="product">	
+		</div>
+		<div class="box">
+			<h2 class="name">SLIPKNOT</h2>
+			<a href="Carrito.html" class="buy">Comprar ahora</a>
+			<a>$30</a>
+			<div class="circle"></div>
+			<img src="hombre.png" class="product">	
+		</div>
+	</div>
+	<script src="vanilla-tilt.min.js"></script>
+	<script>
+		VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	});
+	</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>SECCION NIÑOS</title>
+	<link rel="stylesheet" href="stylecard.css">
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<h2 class="name">RAYO MCQUEEN</h2>
+			<a href="Carrito.html" class="buy">Comprar ahora</a>
+			<a>$25</a>
+			<div class="circle"></div>
+			<img src="rayo.png" class="product">	
+		</div>
+		<div class="box">
+			<h2 class="name">NEMO</h2>
+			<a href="Carrito.html" class="buy">Comprar ahora</a>
+			<a>$25</a>
+			<div class="circle"></div>
+			<img src="memo.png" class="product">	
+		</div>
+		<div class="box">
+			<h2 class="name">TOY STORY</h2>
+			<a href="Carrito.html" class="buy">Comprar ahora</a>
+			<a>$25</a>
+			<div class="circle"></div>
+			<img src="nemo.png" class="product">	
+		</div>
+	</div>
+	<script src="vanilla-tilt.min.js"></script>
+	<script>
+		VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	});
+	</script>
+</body>
+</html>
